@@ -1,0 +1,10 @@
+# 忽略整个目录
+reviews/
+.idea/
+
+# 忽略特定文件
+tmp.py
+
+# 不忽略某个文件（即使上面有通配符）
+!steam_reviews_spider.py
+!接口文档.md
